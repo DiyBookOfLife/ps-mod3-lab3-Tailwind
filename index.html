@@ -16,26 +16,40 @@
       href="./images/favicon-32x32.png"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>Frontend Mentor | QR code component - Toni Thomas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>QR code component | Tailwind Refactor</title>
   </head>
-  <body>
-    <main class="card">
-      <img class="qr-code" src="images/image-qr-code.png" alt="QR-Code" />
-      <section class="card-container">
-        <h1 class="card-title">
+  <body
+    class="min-h-screen flex flex-col items-center justify-center gap-5 bg-slate-100 font-[Outfit]"
+  >
+    <main class="flex flex-col gap-6 w-80 p-4 rounded-2xl bg-white max-w-full">
+      <img class="rounded-xl" src="images/image-qr-code.png" alt="QR-Code" />
+      <section class="flex flex-col justify-center px-4 py-0 gap-4">
+        <h1 class="text-[#1f314f] text-[22px]/[1.2] text-center font-bold m-0">
           Improve your front-end skills by building projects
         </h1>
-        <p class="card-description">
+        <p
+          class="text-[#68778d] m-0 text-[15px]/[1.4] text-center font-normal tracking-[0.2]"
+        >
           Scan the QR code to visit Frontend Mentor and take your coding skills
           to the next level
         </p>
       </section>
     </main>
-    <footer class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="https://toni-thomas.vercel.app/" target="_blank" >Toni Thomas</a>.
-      </footer>
+    <footer class="text-center">
+      Challenge by
+      <a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+        class="text-blue-800 focus-visible:outline focus-visible:outline-[1.5px] focus-visible:outline-red-500"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://toni-thomas.vercel.app/"
+        target="_blank"
+        class="text-blue-800 focus-visible:outline focus-visible:outline-[1.5px] focus-visible:outline-red-500"
+        >Toni Thomas</a
+      >.
+    </footer>
   </body>
 </html>

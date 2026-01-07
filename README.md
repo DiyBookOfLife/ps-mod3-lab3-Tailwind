@@ -1,11 +1,14 @@
 # Frontend Mentor - QR code component solution
 
-This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). In this project, I practiced translating a figma design to HTML & CSS. Check out my solution by [clicking here](https://ps-mod3-figma-qrcode.vercel.app/)!
+This project was originally built as part of [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). For this lab, I refactored the original solution by replacing custom CSS with Tailwind CSS utility classes. 
+
+You can view the original version here: [Original Solution Live Link](https://ps-mod3-figma-qrcode.vercel.app/)
+
 
 ## Table of contents
 
 - [Screenshot](#screenshot)
-- [Live link](#live-link)
+- [Original Live link](#original-solution-live-link)
 - [What I learned](#what-i-learned)
 - [Continued development](#continued-development)
 - [Author](#author)
@@ -15,16 +18,19 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ![](./images/qr-screenshot.png)
 
-### Live Link
-[QR-Code Live Link](https://ps-mod3-figma-qrcode.vercel.app/)
+### Original Solution Live Link
+
+[QR Code Component – Original Version](https://ps-mod3-figma-qrcode.vercel.app/)
 
 ### What I learned
 
-I learned how to read the typography styles in figma, to translate them to CSS. By clicking on the text, the toolbar on the right hand size shows the font-size, family, color, line-height, etc. I was able to then take these styles and apply them using CSS.
+This project helped me get more comfortable converting CSS rules into Tailwind utility classes. I also learned how Tailwind handles spacing, sizing, colors, and pseudo-classes differently than traditional CSS.
+
 
 ### Continued development
 
-In the future, I will use this project to to practice integrating either bootstrap or tailwind.
+I’d like to revisit this project again in the future and refactor it using Bootstrap instead of Tailwind to compare the two approaches.
+
 
 ### Author
 
@@ -34,14 +40,15 @@ In the future, I will use this project to to practice integrating either bootstr
 
 ## Reflection questions
 
-**1. How did using Figma designs as references affect your coding process?**
+**1. What challenges did you face when refactoring your code to use Tailwind?**
 
-- Using figma designs as a refence really helped with the coding process; it provided precise details about the styles instead of guessing based on appearance.
+- The biggest challenge was translating pixel-based CSS  into Tailwind’s utility classes. It also took some time to get used to applying things like `focus-visible` and handling colors without relying on a traditional stylesheet.
 
-**2. What challenges did you encounter when aligning your code with the design specifications?**
+**2. How did using Tailwind utility classes and components simplify your styling process?**
 
-- It was challenging trying to figure out the page and card measurements. When adding the width/height of the page, it broke the fluid layout of the card/container using flex so I focused on the typography instead.
+- Tailwind made it easier to see exactly how each element was styled without jumping back and forth between HTML and CSS files. Once I understood the spacing scale, layout changes became much faster.
 
-**3. How can the feedback and community resources on Frontend Mentor help you improve as a developer?**
 
-- The feedback and community resources exposes me to different solutions to the same problem. Seeing how other developers structure their layouts and style their code, helps me identify best practices.
+**3. In what scenarios might you choose not to use Tailwind and write custom CSS instead?**
+
+- I would probably avoid Tailwind for very small projects or designs that need highly custom styling, where writing plain CSS would be simpler and more flexible.
